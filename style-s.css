@@ -33,6 +33,7 @@ h6{
 ul{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -160,6 +161,12 @@ background-color: #13233a;
     border-radius: 5px;
     background-color:#ffb545;
 }
+.headding-box-2{
+    width: 10%!important;
+    height: 2px;
+    border-radius: 5px;
+    background-color:#ffb545;
+}
 .about-us{
     font-size: 20px;
     font-weight: bold; 
@@ -189,6 +196,157 @@ background-color: #13233a;
 .doc{
     position: relative;
     bottom: 29px;
+}
+.p-color{
+    color: #fff;
+}
+.button-2{
+    background-color:#13233a;
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.btn-2{
+    color: #fff;
+}
+.our-team{
+    font-size: 20px;
+    font-weight: bold; 
+    position: relative;
+    left: 235px;
+    bottom: 16px;
+}
+.h4-style{
+    color: #000;
+    font-size: 50px;
+}
+.button-doc{
+    position: relative;
+    top: 420px;
+    width: 100%;
+    border-radius: 0px;
+}
+.cf-color{
+    background-color: #f2f5fc;
+}
+.button-3{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.color-white{
+    color: #fff;
+}
+.white-color{
+    color: #fff;
+}
+.color-yellow{
+    color: #ffb545;
+}
+.bg-blue{
+    background-color: #13233a;
+    margin-top: 90px;
+    border-radius: 25px;
+}
+.position{
+    position: relative;
+    bottom: 58px;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.ctnr{
+    position: relative;
+    left: 80px;
+    width: 700px;
+    height: 430px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+
+    -webkit-box-shadow: 1px 0px 11px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 1px 0px 11px 0px rgba(0,0,0,0.19);
+    box-shadow: 1px 0px 11px 0px rgba(0,0,0,0.19);
+
+}
+.what{
+    position: relative;
+    bottom: 16px;
+    left: 140px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.yellow-color{
+    color: #ffb545;
+}
+.black-color{
+    color: #000;
+}
+.name{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.quote-size{
+    font-size: 60px;
+    padding-left: 170px;
+    color: #cccccc;
+}
+.patient{
+    color: #969696; 
+}
+.text{
+    color: #000;
+}
+.ancer{
+    color: #ffb545;
+}
+.box{
+    padding: 20px;
+}
+.footer-socal-icon{
+    background-color: #ffb545;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.link{
+    color:#fff ;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.blue-color{
+    background-color: #13233a;
+}
+.underline{
+    width: 50%!important;
+    height: 2px;
+    border-radius: 5px;
+    background-color:#ffb545;
+}
+.top-box{
+    width: 100%!important;
+    height: 2px;
+    border-radius: 5px;
+    background-color:#ffb545;
+}
+.padding-auto{
+    padding: 20px;
+    background-color: #0a1626;
+}
+section{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1e4387;
+    color: #fff
 }
 @media only screen and (max-width: 991px) {
     .header-cf .col-lg-6{
@@ -223,6 +381,15 @@ background-color: #13233a;
     #collapseExample.show{
         right:0;
         transition: all 0.5s ease-out;
+    }
+    .our-team{
+        left: 110px;
+    }
+    .h4-style{
+        font-size: 35px;
+    }
+    .button-doc{
+        top: 383px;
     }
    }
 @media only screen and (max-width: 767px) {
